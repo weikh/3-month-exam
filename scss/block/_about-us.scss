@@ -1,0 +1,51 @@
+.about-us {
+  max-width: 1340px;
+  // border: 1px solid;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  .about-text {
+    max-width: 635px;
+    // border: 1px solid;
+    h3 {
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 80px;
+      color: #000000;
+    }
+    p {
+      max-width: 635px;
+      font-family: "poppins", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #8f95a5;
+      margin-top: 23px;
+    }
+  }
+  .about-bottom {
+    max-width: 635px;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      margin-top: 50px;
+      .price {
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 80px;
+        text-align: center;
+        color: #2a3246;
+      }
+      .text {
+        font-family: "poppins";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #8f95a5;
+      }
+    }
+  }
+}

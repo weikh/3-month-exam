@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Britlex</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overlay hidden" id="overlay"></div>
+      <header>
+        <ul class="logo">
+          <li>
+            <a href="./index.html"
+              ><img src="./images/logo.png" alt="logo" width="106" height="54"
+            /></a>
+          </li>
+        </ul>
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul class="btn">
+          <li><button type="button">Let’s Talk</button></li>
+        </ul>
+      </header>
+      <main>
+        <div class="main-learn">
+          <h1>Learn Any Foreign Language</h1>
+          <p>
+            With our teachers who write a program for each student, you will be
+            able to make your first sketch after the first lesson.
+          </p>
+          <button type="submit" class="btn show-btn" id="show-btn">
+            Get started
+        </button>
+        <div class="modal hidden" id="modal">
+            <div class="modal-header">
+                <h3>About Me</h3>
+                <button class="btn close-btn" id="close-btn">
+                    <i class="fas fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title">Farruhbek Omonov</h2>
+                <p>Age 20</p>
+                <p>Job Student</p>
+                <div class="input-group">
+                  <input class="inp" autocomplete="off" id="inp" type="email" placeholder="Enter your email">
+                  <button class="send-btn" id="inp-btn" type="submit">Send</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="main-img">
+            <img src="./images/main-image.png" alt="" />
+        </div>
+    </main>
+      <div class="skills">
+        <h3>Skills</h3>
+        <div class="skills-bottom">
+          <div class="skills-left">
+            <div class="speaking-img">
+              <img src="./images/skils1.png" alt="speaking" />
+            </div>
+            <div class="speaking-bottom">
+              <h4>Speaking</h4>
+              <p class="top">
+                Improve your English skills and confidence. Live classes and
+                interactive lessons online. 20% extra free for a limited time
+                only
+              </p>
+              <p class="bottom">
+                Learn English online and improve your skills through our
+                high-quality courses and resources – all designed for adult
+                language learners.
+              </p>
+              <button type="button" class="bmw">Learn more</button>
+            </div>
+          </div>
+          <div class="skills-right">
+            <div class="writing">
+              <div class="writing-img">
+                <img src="./images/skils2.png" alt="writing" />
+              </div>
+              <div class="writing-bottom">
+                <h4>Writing</h4>
+                <p>
+                  One of the most important and extensive areas of natural
+                  science, the science that studies substances, also their
+                  composition
+                </p>
+                <button type="button" class="bm">Learn more</button>
+              </div>
+            </div>
+            <div class="reading">
+              <div class="reading-img">
+                <img src="./images/skils3.png" alt="reading" />
+              </div>
+              <div class="reading-bottom">
+                <h4>Reading</h4>
+                <p>
+                  perception and response actions of the user resulting from the
+                  use and/or upcoming use of the product, system or service
+                </p>
+                <button type="button" class="b">Learn more</button>
+              </div>
+            </div>
+            <div class="listening">
+              <div class="listening-text">
+                <h4>Listening</h4>
+                <p>
+                  Here you can find activities to practise your listening
+                  skills. Listening will help you to improve your understanding
+                </p>
+                <button type="button" class="bmwl">Learn more</button>
+              </div>
+              <div class="listening-img">
+                <img src="./images/skils4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-us">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <p>
+            The model offers a framework for discussing problems related to the
+            user's experience, as well as possible ways and means of solving
+            them. Application development begins at the top level (strategy),
+            where the future software product is described quite abstractly from
+            the point of view of the expectations of both users and the
+            customer.
+          </p>
+          <div class="about-bottom">
+            <ul>
+              <li class="price">800</li>
+              <li class="text">Pupils</li>
+            </ul>
+            <ul>
+              <li class="price">18</li>
+              <li class="text">Teachers</li>
+            </ul>
+            <ul>
+              <li class="price">6</li>
+              <li class="text">Foreign languages</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-img">
+          <img src="./images/about.png" alt="img" />
+        </div>
+      </div>
+      <div class="pricing">
+        <h3>Pricing</h3>
+        <div class="pricing-card">
+          <div class="card">
+            <img src="./images/pricing1.png" alt="online-course" />
+            <h4>Self-study online course</h4>
+            <p>
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <button id="card1" type="button">
+              <span
+                ><h5 id="h1">£5.99</h5>
+                <b id="b1">per month</b></span
+              >
+            </button>
+          </div>
+          <div class="card">
+            <img class="img" src="./images/pricing2.png" alt="online-classes" />
+            <h4>Live online classes</h4>
+            <p>
+              Interactive group classes with expert teachers. Free 7-day trial
+            </p>
+            <button class="pricing-btn" id="card2" type="button">
+              <span
+                ><h5 id="h2">£12.99</h5>
+                <b id="b2">per month</b></span
+              >
+            </button>
+          </div>
+          <div class="card">
+            <img src="./images/pricing3.png" alt="tuition" />
+            <h4 class="tuition">Personal Tuition</h4>
+            <p>
+              Online one-to-one English tutoring – enjoy our first session for
+              only $1
+            </p>
+            <button class="tuition-btn" id="card3" type="button">
+              <span
+                ><h5 id="h3">£20.99</h5>
+                <b id="b3">per month</b></span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us">
+        <div class="contact-img">
+          <img src="./images/contact-us.png" alt="img" />
+        </div>
+        <div class="contact-text">
+          <h3>Contact Us</h3>
+          <p>
+            Discover your current English level by taking our free online
+            English test.Sign up to our newsletter for learning tips and free
+            resources
+          </p>
+          <div class="input-group">
+            <input type="email" id="contactInp" placeholder="Enter Your E-mail" name="email" />
+            <button type="submit" id="contactBtn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li>
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p>Terms and Conditions • Privacy Policy • Cookie Policy</p>
+        </li>
+      </ul>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
